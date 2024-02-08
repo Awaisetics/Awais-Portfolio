@@ -53,7 +53,7 @@ const experiences = [
     company_name: "Foxtek Systems Ltd.",
     icon: images.devsinc,
     iconBg: "#EDF2F8",
-    date: "Oct 2021 - Feb 2022",
+    date: "Oct 2021 - June 2022",
     link: "https://www.linkedin.com/company/foxtek-systems-pvt-ltd/",
 
     points: [
@@ -72,10 +72,10 @@ const experiences = [
 
   {
     title: "Frontend Developer",
-    company_name: "ISSM",
+    company_name: "Arcocia Tech Pvt Ltd",
     icon: images.issm,
     iconBg: "grey",
-    date: "Jan 2021 - Oct 2022",
+    date: "Aug 2021 - Oct 2021",
     link: "https://www.linkedin.com/company/issm-ai/",
     points: [
       "Developing reusable UI/UX components in React JS using HTML, CSS, Bootstrap, and Material UI.",
