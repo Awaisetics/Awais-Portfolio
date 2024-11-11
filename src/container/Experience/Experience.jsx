@@ -29,7 +29,7 @@ const textVariant = (delay) => {
 };
 const experiences = [
   {
-    title: "FullStack Engineer ",
+    title: "Software Engineer",
     company_name: "Royal Cyber Inc.",
     icon: images.devsinc,
     iconBg: "#EDF2F8",
@@ -49,17 +49,17 @@ const experiences = [
     },
   },
   {
-    title: "Backend Developer",
-    company_name: "Foxtek Systems Ltd.",
-    icon: images.devsinc,
+    title: "Full Stack Developer",
+    company_name: "Securely Innovations",
+    icon: images.securely,
     iconBg: "#EDF2F8",
     date: "Oct 2021 - June 2022",
-    link: "https://www.linkedin.com/company/foxtek-systems-pvt-ltd/",
+    link: "https://www.linkedin.com/company/securelyinnovations/",
 
     points: [
-      " Proficient in developing web applications using Nest.js in an MVC architecture, building robust and scalable back-end systems.",
-      "Employed MongoDB as the database for the Node.js applications, ensuring efficient and reliable data storage and retrieval.",
-      " Implemented best practices for security, including data encryption and protection against common web vulnerabilities.",
+      "Developed web applications using Nest.js in an MVC architecture, building robust and scalable back-end systems.",
+      "Designed and implemented customized solutions based on client needs, optimizing code for both efficiency and reliability.",
+      "Implemented best practices for security, including data encryption and protection against common web vulnerabilities.",
     ],
     styles: {
       display: "flex",
@@ -71,17 +71,17 @@ const experiences = [
   },
 
   {
-    title: "Frontend Developer",
+    title: "Web Developer Intern",
     company_name: "Arcocia Tech Pvt Ltd",
     icon: images.issm,
     iconBg: "grey",
     date: "Aug 2021 - Oct 2021",
     link: "https://www.linkedin.com/company/issm-ai/",
     points: [
-      "Developing reusable UI/UX components in React JS using HTML, CSS, Bootstrap, and Material UI.",
+      "Developed reusable UI/UX components in React JS using HTML, CSS, Bootstrap, and Material UI.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Worked closely with senior developers, learning best practices for clean, maintainable code and picking up valuable insights on web development.",
     ],
     styles: {
       display: "flex",

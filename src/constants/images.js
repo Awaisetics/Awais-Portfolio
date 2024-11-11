@@ -34,6 +34,7 @@ import Resume from "../assets/resume.png";
 import Gmail from "../assets/Gmail.png";
 import Whatsapp from "../assets/Whatsapp.png";
 import devsinc from "../assets/experience/devsinc.png";
+import securely from "../assets/experience/securely.png";
 import issm from "../assets/experience/issm.png";
 import js from "../assets/js.png";
 import LinkedIn from "../assets/Footer/linkedin.png";
@@ -46,6 +47,7 @@ export default {
   js,
   devsinc,
   issm,
+  securely,
   email,
   mobile,
   api,
