@@ -74,12 +74,12 @@ const experiences = [
     title: "Web Developer Intern",
     company_name: "Arcocia Tech Pvt Ltd",
     icon: images.issm,
-    iconBg: "grey",
+    iconBg: "#EDF2F8",
     date: "Aug 2021 - Oct 2021",
     link: "https://www.linkedin.com/company/issm-ai/",
     points: [
       "Developed reusable UI/UX components in React JS using HTML, CSS, Bootstrap, and Material UI.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implemented responsive design and ensuring cross-browser compatibility.",
       "Worked closely with senior developers, learning best practices for clean, maintainable code and picking up valuable insights on web development.",
     ],
@@ -89,7 +89,6 @@ const experiences = [
       alignItems: "center",
       marginLeft: "1.2rem",
       marginTop: ".3rem",
-      width: "30%",
     },
   },
 ];
@@ -105,19 +104,16 @@ const ExperienceCard = ({ experience }) => {
       }}
       contentArrowStyle={{ borderRight: "10px solid  #edb10b" }}
       date={<h4 className="font-bold">{experience.date}</h4>}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: experience.iconBg, display: "flex", alignItems: "center", justifyContent: "center" }}
       icon={
-        <a
-          style={experience.styles}
-          href={experience.link}
-          className={experience.company_name === "ISSM" && "icon-issm"}
-        >
+        <a href={experience.link} style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0.3rem" }} >
           <img
             src={experience.icon}
             alt={experience.company_name}
             style={{
-              width: "95%",
-              height: "95%",
+              width: "70%", 
+              height: "70%", 
+              objectFit: "contain",
             }}
           />
         </a>
